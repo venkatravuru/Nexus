@@ -54,7 +54,7 @@ update the details in pom.xml
 step 3: Where we need to keep nexus credentials?
 
 --> In SonarQube we updated credentials in pom.xml
---> In nexus, repo details in pom.xml and credentials in /opt/apache-maven-3.9.8/conf/settings.xml
+--> In nexus, repo details in pom.xml and credentials in # vi /opt/apache-maven-3.9.8/conf/settings.xml
 
    <server>
       <id>nexus</id>
